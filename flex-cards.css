@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: #f5f5f5;
+    display: flex;
+}
+.container{
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    width: 20%;
+    height: 200px;
+    background-color: #e2fff5;
+}
+ @media (max-width: 1250px) {
+    .box{
+        width: 30%;
+    }
+} 
+ @media (max-width: 1024px) {
+   
+    .box{
+        width: 45%;
+    }
+} 
+ @media (max-width: 639px) {
+    .container{
+        gap: 10px;
+    }
+    .box{
+        width: 80%;
+    }
+} 
+ 
